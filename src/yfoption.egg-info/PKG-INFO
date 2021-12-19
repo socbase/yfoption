@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: yfoption
+Version: 0.0.1
+Summary: The package fetch option data from yahoo finance.
+Home-page: https://github.com/socbase/yfoption
+Author: Socbase
+Author-email: socbase.me@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/socbase/yfoption.git/issues
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# Information
+This package to fetch data from cnbc
+## Installation
+```bash
+pip install cnbcfinance
+
+```
+## Get History by interval
+* Get data by interval and period
+```bash
+from cnbcfinance import get_history_df
+```
+## Get Quote
+* Get quote data realtime
+```bash
+from cnbcfinance import get_quote
+```
+
+
